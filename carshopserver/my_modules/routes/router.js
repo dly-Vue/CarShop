@@ -50,22 +50,7 @@ module.exports = function (app) {
 				}
 			})
 	});
-	//汽车中心所有的数据
-	app.post('/carcenter', function (req, res) {
-		let Model = new DB('user')
-		Model.where({ userName: req.body.userName, userPassword: req.body.userPassword })
-			.select(function (result) {
-				if (result != "") {
-					// 如果登录成功，我们把用户的信息保存到session中，用于用户已经登录的凭证
-					console.log("登录成功");
-					console.log(result)
-					res.json({ "content": "1" });
-				} else {
-					console.log("登录失败");
-					res.json({ "content": "2" });
-				}
-			})
-	});
+
 	//个人中心的数据
 	app.post('/user/userinfo', function (req, res) {
 		let Model = new DB('userinfo')
@@ -113,4 +98,13 @@ module.exports = function (app) {
 			res.json(result);
 		});
 	});
+	//获取所有商品的信息
+	app.post('/car/allCar', function (req, res) {
+		let Model = new DB('allCar');
+		Model.select(function(result){
+			res.json(result);
+		})
+	
+	});
+
 }

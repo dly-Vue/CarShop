@@ -3,16 +3,26 @@ const express = require('express');
 const app = express();                          // 执行express返回express实例对象
 const router = require('./my_modules/routes/router')
 const bodyparser = require('body-parser');
-
-// app.use('/product', router);
-
-//使用中间件，解决数据问题
+//使用中间件，解决数据接受的问题
 app.use(bodyparser.json());     // 使用boddyparser中间件
 app.use(bodyparser.urlencoded({
 	extended:false
 }))
 
 router(app)
+
+router(app)
+app.listen(8888, (err) => {
+    if (err) {
+        console.log('服务器开启失败，详细信息为：')
+        console.log(err)
+    } else {
+        console.log('服务器开启成功：端口为：8888')
+    }
+})
+
+
+// app.use('/product', router);
 
 //测试所用例子
 // app.post('/product', function (req, res, next) {
@@ -44,14 +54,3 @@ router(app)
 //     res.send('hello world')
 // })
 
-router(app)
-
-
-app.listen(8888, (err) => {
-    if (err) {
-        console.log('服务器开启失败，详细信息为：')
-        console.log(err)
-    } else {
-        console.log('服务器开启成功：端口为：8888')
-    }
-})

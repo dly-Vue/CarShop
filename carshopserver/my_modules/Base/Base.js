@@ -34,7 +34,7 @@ function Base(table){
     		console.log(err);
     		return ;
     	}
-    	console.log('数据库连接成功!');
+    	// console.log('数据库连接成功!');
     });
 }
 
