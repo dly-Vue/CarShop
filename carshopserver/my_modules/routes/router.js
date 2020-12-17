@@ -104,6 +104,23 @@ module.exports = function (app) {
 		Model.select(function(result){
 			res.json(result);
 		})
+	});
+
+	//获取部分商品的信息
+	app.post('/car/someCar', function (req, res) {
+		let Model = new DB('allCar');
+		Model.limit(0,16).select(function(result){
+			res.json(result);
+		})
+	
+	});
+	//获取单个商品的信息
+	app.post('/car/oneCarInfo', function (req, res) {
+		let Model = new DB('allCar');
+		console.log(req.body);
+		Model.where({carId:req.body.carId}).select(function(result){
+			res.json(result);
+		})
 	
 	});
 
