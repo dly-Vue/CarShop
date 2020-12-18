@@ -68,7 +68,6 @@ Base.prototype.where = function(where){
         }
         this.where_str = 'where '+ where_arr.join(' and ');
     }
-
     if(typeof where == 'string'){
         this.where_str = 'where '+ where;
     }
@@ -145,7 +144,6 @@ Base.prototype.select = function(fun){
         }
         // 初始化搜索用的数据
         that.initValue()
-        // console.log(result)
         fun(result)
     })
 }
