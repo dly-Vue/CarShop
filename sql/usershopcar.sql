@@ -1,0 +1,13 @@
+INSERT INTO `usershopcar` VALUES (2, 'AA', '大众', 13, '', 20, '上汽大众 途岳', '广州', 1);
+INSERT INTO `usershopcar` VALUES (3, 'AA', '大众', 3, '', 25, '上汽大众 全新凌渡', '长沙', 1);
+INSERT INTO `usershopcar` VALUES (7, 'AA', '奥迪', 2, '', 31, '奥迪A4L 2020款 40 TFSI 时尚动感型', '长沙', 1);
+INSERT INTO `usershopcar` VALUES (10, 'AA', '奥迪', 1, '', 45, '奥迪Q5L 2020款 45 TFSI 尊享时尚型', '长沙', 1);
+INSERT INTO `usershopcar` VALUES (1, 'dly', '大众', 2, '', 15, '一汽-大众CC', '长沙', 2);
+INSERT INTO `usershopcar` VALUES (26, 'dly', '玛莎拉蒂', 1, '', 800, 'Levante 2020款 3.0T 杰尼亚奢享限量版', '上海', 2);
+INSERT INTO `usershopcar` VALUES (14, 'dly', '宝马', 1, '', 22, '宝马1系 2020款 120i M运动套装', '长沙', 2);
+INSERT INTO `usershopcar` VALUES (2, 'dly', '大众', 2, '', 20, '上汽大众 途岳', '广州', 1);
+INSERT INTO `usershopcar` VALUES (3, 'dly', '大众', 1, '', 25, '上汽大众 全新凌渡', '长沙', 2);
+INSERT INTO `usershopcar` VALUES (2, '邓利洋', '大众', 1, '', 20, '上汽大众 途岳', '广州', 2);
+INSERT INTO `usershopcar` VALUES (28, '邓利洋', '宝马', 1, '', 54, '宝马Z4 2020款 sDrive 25i 银霜限量版', '南京', 2);
+INSERT INTO `usershopcar` VALUES (2, '邓利洋', '大众', 3, '', 20, '上汽大众 途岳', '广州', 1);
+INSERT INTO `usershopcar` VALUES (4, '邓利洋', '大众', 1, '', 18, '上汽大众 全新一代朗逸 ', '广州', 1);

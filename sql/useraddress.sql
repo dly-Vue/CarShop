@@ -1,0 +1,13 @@
+INSERT INTO `useraddress` VALUES ('dly', '湖南长沙');
+INSERT INTO `useraddress` VALUES ('dly', '湖南张家界');
+INSERT INTO `useraddress` VALUES ('dly', '湖南岳阳');
+INSERT INTO `useraddress` VALUES ('dly', '湖南永州');
+INSERT INTO `useraddress` VALUES ('dly', '上海');
+INSERT INTO `useraddress` VALUES ('dly', '四川');
+INSERT INTO `useraddress` VALUES ('AA', '湖南邵阳');
+INSERT INTO `useraddress` VALUES ('AA', '湖南张家界');
+INSERT INTO `useraddress` VALUES ('dly', '湖南邵阳');
+INSERT INTO `useraddress` VALUES ('dly', '湖南邵阳');
+INSERT INTO `useraddress` VALUES ('c', '湖南邵阳');
+INSERT INTO `useraddress` VALUES ('邓利洋', '湖南');
+INSERT INTO `useraddress` VALUES ('邓利洋', '湖南邵阳');
